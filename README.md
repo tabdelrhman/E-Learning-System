@@ -22,18 +22,18 @@ Manual guide:
 -------------------------------
 
 *To add new Student:
-	Request type: POST
-	URI: localhost:8080/e-learning/student
-	Body in JSON format:
+	- Request type: POST
+	- URI: localhost:8080/e-learning/student
+	- Body in JSON format:
 	 {
 	"name": "Mohamed",
 	"gender": "Male",
 	"email": "mohamed@gmail.com"}
 	
 *To add new Course:
-	Request type: POST
-	URI: localhost:8080/e-learning/course
-	Body in JSON format:
+	- Request type: POST
+	- URI: localhost:8080/e-learning/course
+	- Body in JSON format:
 	{
 	"courseName": "MES",
 	"instructor": "dr.Waleed",
@@ -41,34 +41,34 @@ Manual guide:
 	"description": "this is to learn management systems"}
 
 *To make student register in course:
-	Request type: POST
-	URI: localhost:8080/e-learning/student/course/1/1  _where first '1' is courseId and 	second '1' is StudentId_
-	Body in JSON format:
+	- Request type: POST
+	- URI: localhost:8080/e-learning/student/course/1/1  _where first '1' is courseId and 	second '1' is StudentId_
+	- Body in JSON format:
 
 *To get All student courses:
-	Request type: GET
-	URI: localhost:8080/e-learning/student/courses/1  _where '1' is studentId_
-	Body in JSON format:
+	- Request type: GET
+	- URI: localhost:8080/e-learning/student/courses/1  _where '1' is studentId_
+	- Body in JSON format:
 	
 *To unregister form course:
-	Request type: DELETE
-	URI: localhost:8080/e-learning/student/course/1/1   _where first '1' is courseId and 	second '1' is StudentId_
-	Body in JSON format:
+	- Request type: DELETE
+	- URI: localhost:8080/e-learning/student/course/1/1   _where first '1' is courseId and 	second '1' is StudentId_
+	- Body in JSON format:
 	
 *To get All courses:
-	Request type: GET
-	URI: localhost:8080/e-learning/courses
-	Body in JSON format:
+	- Request type: GET
+	- URI: localhost:8080/e-learning/courses
+	- Body in JSON format:
 	
 *To get specific course by id:
-	Request type: GET
-	URI: localhost:8080/e-learning/course/1  _where first '1' is courseId_
-	Body in JSON format:
+	- Request type: GET
+	- URI: localhost:8080/e-learning/course/1  _where first '1' is courseId_
+	- Body in JSON format:
 	
 *To get specific student by id:
-	Request type: GET
-	URI: localhost:8080/e-learning/student/1  _where first '1' is studentId_
-	Body in JSON format:
+	- Request type: GET
+	- URI: localhost:8080/e-learning/student/1  _where first '1' is studentId_
+	- Body in JSON format:
 	
 -----------------------------------------------------
 
