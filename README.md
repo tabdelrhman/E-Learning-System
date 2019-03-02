@@ -72,4 +72,6 @@ Manual guide:
 	
 -----------------------------------------------------
 
+HINT: When you are running, if u got error that the port is already one use, Write this command -> netstat -a -n -o | find "8080" then you will see the PID. then write this command -> taskkill /F /PID "PID_THAT_APPEARS"
+
  
